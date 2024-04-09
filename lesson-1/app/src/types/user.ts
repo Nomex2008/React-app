@@ -20,4 +20,3 @@ interface FetshUsersErrorAction {
     payload: string;
 }
 export type UserAction = FetshUsersAction | FetshUsersSuccessAction | FetshUsersErrorAction
-export {}
