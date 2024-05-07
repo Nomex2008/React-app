@@ -3,7 +3,7 @@ import { postAPI } from "../services/PostServices";
 import PostItem from "./PostItem";
 
 const PostContainer = ({}) => {
-    const {data: posts, error, isLoading} = postAPI.useFetchAllPostsQuery(5)
+    const {data: posts, error, isLoading} = postAPI.useFetchAllPostsQuery(10)
     return (
         <div>
             <div className="post__list">

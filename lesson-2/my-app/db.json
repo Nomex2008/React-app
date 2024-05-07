@@ -1,0 +1,21 @@
+{
+    "posts": [
+      { "id": "1", "title": "a title", "body": "author" },
+      { "id": "2", "title": "a title 2", "body": "author" },
+      { "id": "3", "title": "a title 3", "body": "author" },
+      { "id": "4", "title": "a title 4", "body": "author" },
+      { "id": "5", "title": "a title 5", "body": "author" },
+      { "id": "6", "title": "a title 6", "body": "author" },
+      { "id": "7", "title": "a title 7", "body": "author" },
+      { "id": "8", "title": "a title 8", "body": "author" },
+      { "id": "9", "title": "a title 9", "body": "author" },
+      { "id": "10", "title": "a title 10", "body": "author" }
+    ],
+    "comments": [
+      { "id": "1", "text": "a comment about post 1", "postId": "1" },
+      { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
